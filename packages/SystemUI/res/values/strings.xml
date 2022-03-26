@@ -2355,4 +2355,8 @@
 
     <!-- Title for User Switch dialog. [CHAR LIMIT=20] -->
     <string name="qs_user_switch_dialog_title">Select user</string>
+    
+    <!-- Statusbar Icons -->
+    <string name="status_bar_nfc">NFC</string>
+    <string name="status_bar_data_saver">Data saver</string>
 </resources>
