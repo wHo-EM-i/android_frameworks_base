@@ -197,8 +197,8 @@ public class PixelPropsUtils {
         propsToChangePixel8Pro.put("PRODUCT", "husky");
         propsToChangePixel8Pro.put("HARDWARE", "husky");
         propsToChangePixel8Pro.put("MODEL", "Pixel 8 Pro");
-        propsToChangePixel8Pro.put("ID", "AP2A.240705.005.A1");
-        propsToChangePixel8Pro.put("FINGERPRINT", "google/husky/husky:14/AP2A.240705.005.A1/11944170:user/release-keys");
+        propsToChangePixel8Pro.put("ID", "BP2A.250605.031.A2");
+        propsToChangePixel8Pro.put("FINGERPRINT", "google/husky/husky:16/BP2A.250605.031.A2/13578606:user/release-keys");
         propsToChangePixel5a = new HashMap<>();
         propsToChangePixel5a.put("BRAND", "google");
         propsToChangePixel5a.put("MANUFACTURER", "Google");
@@ -206,8 +206,8 @@ public class PixelPropsUtils {
         propsToChangePixel5a.put("PRODUCT", "barbet");
         propsToChangePixel5a.put("HARDWARE", "barbet");
         propsToChangePixel5a.put("MODEL", "Pixel 5a");
-        propsToChangePixel5a.put("ID", "AP2A.240705.004");
-        propsToChangePixel5a.put("FINGERPRINT", "google/barbet/barbet:14/AP2A.240705.004/11875680:user/release-keys");
+        propsToChangePixel5a.put("ID", "AP2A.240805.005.S4");
+        propsToChangePixel5a.put("FINGERPRINT", "google/barbet/barbet:14/AP2A.240805.005.S4/12281092:user/release-keys");
         propsToChangePixelXL = new HashMap<>();
         propsToChangePixelXL.put("BRAND", "google");
         propsToChangePixelXL.put("MANUFACTURER", "Google");
@@ -429,15 +429,15 @@ public class PixelPropsUtils {
         setPropValue("BRAND", "google");
         setPropValue("MANUFACTURER", "Google");
         setPropValue("DEVICE", "caiman");
-        setPropValue("ID", "AD1A.240530.047.U1");
-        setPropValue("FINGERPRINT", "google/caiman/caiman:14/AD1A.240530.047.U1/12150698:user/release-keys");
+        setPropValue("ID", "BP31.250523.010");
+        setPropValue("FINGERPRINT", "google/caiman_beta/caiman:16/BP31.250523.010/13667654:user/release-keys");
         setPropValue("MODEL", "Pixel 9 Pro");
-        setPropValue("PRODUCT", "caiman");
+        setPropValue("PRODUCT", "caiman_beta");
         setPropValue("TYPE", "user");
         setPropValue("TAGS", "release-keys");
-        setVersionFieldString("INCREMENTAL", "12150698");
-        setVersionFieldString("SECURITY_PATCH", "2024-08-05");
-        setVersionFieldInt("DEVICE_INITIAL_SDK_INT", 34);
+        setVersionFieldString("INCREMENTAL", "13667654");
+        setVersionFieldString("SECURITY_PATCH", "2025-06-05");
+        setVersionFieldInt("DEVICE_INITIAL_SDK_INT", 32);
     }
 
     private static boolean isCallerSafetyNet() {
